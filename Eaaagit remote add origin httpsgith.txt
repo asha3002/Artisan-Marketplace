@@ -1,0 +1,71 @@
+E:\aaa>git remote add origin https://github.com/jezoar1/carnival.git
+fatal: detected dubious ownership in repository at 'E:/'
+'E:/' is owned by:
+        'S-1-5-18'
+but the current user is:
+        'S-1-5-21-2826170283-234056356-933075073-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory E:/
+
+E:\aaa>git remote add origin https://github.com/jezoar1/carnival.git
+fatal: detected dubious ownership in repository at 'E:/'
+'E:/' is owned by:
+        'S-1-5-18'
+but the current user is:
+        'S-1-5-21-2826170283-234056356-933075073-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory E:/
+
+E:\aaa>git init
+Initialized empty Git repository in E:/aaa/.git/
+
+E:\aaa>git remote add origin https://github.com/jezoar1/carnival.git
+
+E:\aaa>git add .
+warning: adding embedded git repository: carnival
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> carnival
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached carnival
+hint:
+hint: See "git help submodule" for more information.
+
+E:\aaa>git commit -m "asha"
+[master (root-commit) 8b8f866] asha
+ 1 file changed, 1 insertion(+)
+ create mode 160000 carnival
+
+E:\aaa>git checkout -b asha
+Switched to a new branch 'asha'
+
+E:\aaa>git push origin asha
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 192 bytes | 192.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'asha' on GitHub by visiting:
+remote:      https://github.com/jezoar1/carnival/pull/new/asha
+remote:
+To https://github.com/jezoar1/carnival.git
+ * [new branch]      asha -> asha
+
+E:\aaa>
+
+
+
+
+
+
+
+
+
